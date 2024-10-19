@@ -73,18 +73,24 @@ body{
 {
     .gameContainer{
         flex-wrap: wrap;
+        padding: 30px;
     }
     .gameInfo{
         margin-top: 34px;
     }
     .gameInfo h1{
-        font-size: 1.3rem;
+        font-size: 1.4rem;
     }
     .container { 
         grid-template-rows: repeat(3, 20vw);
         grid-template-columns: repeat(3, 20vw);
     }
+
+    .info{
+        font-size: 20px;
+    }
     #reset{
-        width: 100px;
+        width: 90px;
+        font-size: 18px;
     }
 }
